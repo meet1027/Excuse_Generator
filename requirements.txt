@@ -1,0 +1,16 @@
+streamlit
+transformers>=4.30.0 # Specify a recent version
+torch>=1.13.0 # Or version compatible with your system/deployment target
+accelerate>=0.21.0
+bitsandbytes>=0.41.0 # For potential quantization if GPU available
+pandas>=1.5.0
+Pillow>=9.0.0
+gTTS>=2.3.0
+datasets # Often used by transformers/trl internally
+# Add trl and peft if you plan to re-enable fine-tuning later
+# trl>=0.7.0
+# peft>=0.8.0
+ipywidgets # Was used in colab, might not be needed but safe to include
+ipython # Was used in colab, might not be needed but safe to include
+
+numpy
